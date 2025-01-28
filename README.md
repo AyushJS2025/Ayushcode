@@ -1,8 +1,10 @@
 # Ayushcode
-console.log("calculation of two number ") <br>
-let a = 56; <br>
-let b = 89; <br>
-console.log("addition = ", a+b) <br>
-console.log("Substraction = ", a-b) <br>
-console.log("Multiplication = ", a*b) <br>
-console.log("Division = ", a/b)
+let x = prompt("Enter the value of x ");
+x=Number.parseInt(x);
+let y = prompt("Enter the value of y ");
+y=Number.parseInt(y);
+console.log("calculation of two number ")
+console.log("addition of two number is ",x+y);
+console.log("subtraction of two number is ",x-y);
+console.log("multiplication of two number is ",x*y);
+console.log("Division of two number is ",x/y);
